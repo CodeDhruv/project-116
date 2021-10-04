@@ -1,0 +1,23 @@
+h3{
+    font-size:25px !important;
+}
+body{
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 3px;
+}
+.btn-success:hover {background-color: rgb(255, 78, 78);}
+
+canvas{
+animation-name: RGBCOLOR;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+}
+@keyframes RGBCOLOR{
+    0%   {box-shadow: 1px 1px 38px  red;}
+    25%  {box-shadow: 1px 1px 38px  rgb(255, 255, 150);}
+    50%  {box-shadow: 1px 1px 38px  blue;}
+    100% {box-shadow: 1px 1px 38px  rgb(0, 128, 0);}
+}
+#h4{
+    font-size:50px;
+}
